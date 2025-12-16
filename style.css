@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: purple;
+  color: white;
+  padding: 40px 20px;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card a {
+  display: inline-block;
+  margin: 8px;
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+.skills {
+  list-style: none;
+}
+
+.skills li {
+  display: inline-block;
+  background: #e0e0e0;
+  margin: 6px;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
